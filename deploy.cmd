@@ -109,8 +109,8 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 )
 
 :: 4. Create Hubot file with a coffee extension
-4.Create Hubot file with a coffee extension
-copy /Y Åg%DEPLOYMENT_TARGET%\node_modules\hubot\bin\hubotÅh Åg%DEPLOYMENT_TARGET%\node_modules\hubot\bin\hubot.coffeeÅh
+echo 4.Create Hubot file with a coffee extension
+copy /Y ‚Äú%DEPLOYMENT_TARGET%\node_modules\hubot\bin\hubot‚Äù ‚Äú%DEPLOYMENT_TARGET%\node_modules\hubot\bin\hubot.coffee‚Äù
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
